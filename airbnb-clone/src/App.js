@@ -6,8 +6,26 @@ function App() {
 
 
     // BEM
+    // comment
     <div className="app">
       <h1>Let's build Airbnb Clone!</h1>
+     
+    
+
+      {/* Home  */}
+
+          {/* Header */}
+
+          {/* Banner */}
+
+          {/* Cards */}
+
+          {/* Footer */}
+
+      {/* SearchPage */}
+
+
+
     </div>
   );
 }
