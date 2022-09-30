@@ -1,4 +1,9 @@
 .header {
+
+    /*
+    this affects everything in the className = header
+    using display flex puts everything into an inline row
+    */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,37 +12,43 @@
     background-color: white;
     z-index: 100;
     width: 100%;
-  }
-  
-  .header__icon {
+}
+
+
+.header__icon {
+
+    /*
+    object-fit property contain will maintain the aspect 
+    but image is resized within the given dimension
+    */
+
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
-  }
-  
-  .header__center {
+}
+
+.header__center {
     display: flex;
-    flex: 1;
     align-items: center;
+    flex: 1;
     max-width: fit-content;
     padding: 10px;
     height: 30px;
-    border: 1px solid lightgray;
     border-radius: 999px;
-  }
-  
-  .header__center > input {
+    border: 1px solid lightgray;
+}
+
+.header__center>input {
     border: none;
-    padding: 10px;
+    padding: 10 px;
     outline-width: 0;
     /* width: 250px; */
-  }
-  
-  .header__right {
+}
+
+.header__right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 15vw;
     margin-right: 80px;
-  }
-  
+}

@@ -1,6 +1,7 @@
 
 import './App.css';
 import Header from './Header.js'
+import Home from './Home.js'
 
 function App() {
   return (
@@ -9,9 +10,9 @@ function App() {
     // BEM
     // comment
     <div className="app">
-      <h1>Let's build Airbnb Clone!</h1>
      
     <Header/>
+    <Home/>
 
       {/* Home  */}
 
