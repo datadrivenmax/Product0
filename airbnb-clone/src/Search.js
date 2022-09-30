@@ -1,5 +1,5 @@
 import './Search.css'
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file (where are these files coming from??)
@@ -30,7 +30,13 @@ function Search() {
     return (
         <div className='search'>
 
-
+            <DateRangePicker
+                ranges={[selectionRange]}
+                onChange={handleSelect}
+            />
+            <h2>Number of Guests </h2>
+            <input min={0} defaultValue={2} type="number" />
+            <button>Search Airbnb</button>
 
         </div>
     )
