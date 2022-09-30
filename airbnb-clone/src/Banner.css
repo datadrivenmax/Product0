@@ -23,3 +23,27 @@
     margin-top:20px;
     font-weight:600;
 }
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #FF5A5F
+}
+
+.banner__searchButton{
+    background-color: white;
+    color: #FF5A5F;
+    font-weight:900;
+    text-transform: inherit;
+
+}
+
+.banner__search > button:hover {
+    color: white;
+    background-color: #FF5A5F
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+
+}
