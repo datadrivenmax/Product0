@@ -6,27 +6,31 @@ import Footer from './Footer.js'
 import SearchPage from './SearchPage.js'
 
 // imports from react-router
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
 
 
     <div className="app">
-      <Router>
+      {/* <Router> */}
 
         <Header />
 
-        {/* home page*/}
-        <Home />
+<Home/>
+        {/* <Routes>
+          <Route path="/search">
+            <SearchPage />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
 
-
-        {/* home page*/}
-        <SearchPage/>
+        </Routes> */}
 
         <Footer />
 
-      </Router>
+      {/* </Router> */}
 
     </div>
   );
