@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link , BrowserRouter} from "react-router-dom"
 // import SearchIcon from '@mui/icons-material/Search';
 // import LanguageIcon from "@material-ui/icons/Language";
 // import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -12,18 +13,22 @@ function Header() {
     return (
         <div className='header'>
 
+            {/* Link tag from react router */}
+            <BrowserRouter>
+                <Link to="/">
+                    <img
+                        className='header__icon'
+                        src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
+                        alt=""
+                    />
 
-            <img
-                className='header__icon'
-                src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
-                alt=""
-            />
-
+                </Link>
+            </BrowserRouter>
             <div className='header__center'>
                 <input type="text" />
                 {/* <SearchIcon/> */}
             </div>
-        
+
 
 
             <div className='header__right'>

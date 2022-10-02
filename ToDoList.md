@@ -1,6 +1,6 @@
 1. figure out why mui icons render white screen
+2. Learn react google adsenese
+3. Link tag changes url but doesn't render a new page
 
-
-Current 
-1. Build date picker
-2. 
+https://www.youtube.com/watch?v=BtJeH_-XYaA
+2:55
