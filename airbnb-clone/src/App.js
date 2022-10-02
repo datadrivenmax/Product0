@@ -6,33 +6,26 @@ import Footer from './Footer.js'
 import SearchPage from './SearchPage.js'
 
 // imports from react-router
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
 
 
     <div className="app">
-      {/* <Router> */}
+      <Header />
 
-        <Header />
+      <BrowserRouter>
+        <Routes>
 
-<Home/>
-        {/* <Routes>
-          <Route path="/search">
-            <SearchPage />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route path="/" element={<Home />}/>
+          <Route path="/search" element={<SearchPage />}/>
 
-        </Routes> */}
+        </Routes>
+      </BrowserRouter>
 
-        <Footer />
-
-      {/* </Router> */}
-
-    </div>
+      <Footer />
+    </div >
   );
 }
 

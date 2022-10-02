@@ -4,9 +4,9 @@ import React from 'react'
 function SearchPage() {
   return (
     <div className='searchPage'>
-        <h1>
-            I am a search page. 
-        </h1>
+      <div className='searchPage'>
+        <h1>Hi my name is search</h1>
+      </div>
     </div>
   )
 }
