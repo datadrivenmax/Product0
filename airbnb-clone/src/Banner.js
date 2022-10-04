@@ -1,23 +1,28 @@
 import React, { useState } from 'react'
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter, Link, Router, useNavigate} from 'react-router-dom';
 import './Banner.css'
 import Search from './Search.js'
+import App from './App.js'
 
 
 function Banner() {
-    
-    // // history
-    //     const history = useHistory();
 
-        // write state of search button
-        const [showSearch, setShowSearch] = useState
+
+    // // // history
+    // const history = useHistory();
+
+    // write state of search button
+    const [showSearch, setShowSearch] = useState
         (false);
 
 
-        // declare showSearch above
-        // below if showSearch is true then render out search component
+    // declare showSearch above
+    // below if showSearch is true then render out search component
 
-        return (
+
+
+    return (
+
         <div className='banner'>
 
             <div className='banner__search'>
@@ -41,8 +46,8 @@ function Banner() {
                 <button variant="outlined">
                     Explore Nearby Properties
                 </button>
+            </div>
         </div>
-    </div>
     )
 }
 

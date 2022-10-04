@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Banner from './Banner.js'
 import Card from './Card.js'
+import BrowserRouter from 'react-router-dom'
 
 
 function Home() {
