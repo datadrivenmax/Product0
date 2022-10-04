@@ -25,6 +25,17 @@ function SearchResult({
                     <p>{description}</p>
                 </div>
                 <div className='searchResult__infoBottom'>
+                    {/* make star right here */}
+                    <div>
+
+                    </div>
+
+                    <div className='searchResult_price'>
+
+
+                    </div>
+
+
 
                 </div>
 
